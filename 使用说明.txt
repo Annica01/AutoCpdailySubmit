@@ -1,0 +1,25 @@
+﻿本系列程序仅供学习交流使用
+请积极配合辅导员老师疫情防控工作！
+
+【程序说明】
+这是站在巨人的肩膀上写的程序！
+自动打卡程序参考github项目：https://github.com/ZimoLoveShuang/auto-submit（大佬！！！）
+
+【使用说明】
+1.安装Chrome浏览器，并保证 chromedriver.exe ，相关信息.ini 与 自动填表.exe 在同一文件夹内
+（注意Chrome浏览器版本，本chromedriver.exe仅支持 83.0.4103.61（正式版本））
+2.配置 相关信息.ini
+3.运行 自动填表.exe
+
+【定时任务说明】
+可设置每天7：05 与 11：30的定时任务来自动打卡
+详情可看这篇CSDN博客
+https://blog.csdn.net/weixin_41712808/article/details/81567328
+注意：在“启动程序-起始于（可选）”填写 源码.exe 位置，参见 截图1（图上是我的程序位置）
+
+【发送邮件说明】
+本服务需要配置QQ邮箱STMP服务
+详情可以参看这篇百度经验
+https://jingyan.baidu.com/article/6079ad0eb14aaa28fe86db5a.html
+相关信息请于 相关信息.ini 中配置
+
